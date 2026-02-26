@@ -2,6 +2,12 @@
 
 An ESP32-S3 e-paper dashboard that displays live weather and a Todoist task list side by side on a 5.79" 792×272 monochrome display. The weather panel shows current conditions, a dithered radar image from the Turkish Meteorology service, wind/pressure stats, and a 6-hour history graph, while the task panel fetches and renders your Todoist inbox in real time. Configuration is handled entirely through a JSON file on the device filesystem — no recompilation needed to change WiFi credentials, API keys, or location.
 
+![AeroDashboard front view](docs/dashboard-front.jpg)
+
+![Weather and radar closeup](docs/weather-closeup.jpg)
+
+![3D-printed desk mount](docs/mount-back.jpg)
+
 ## Setup
 
 1. Copy `data/config.json.example` to `data/config.json` and fill in your credentials
