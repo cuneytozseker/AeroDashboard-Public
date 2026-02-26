@@ -1,0 +1,24 @@
+# PlatformIO build artifacts
+.pio/
+
+# IDE
+.vscode/
+.idea/
+
+# User credentials and private config - NEVER commit these
+data/config.json
+data/state.dat
+
+# Runtime cache files
+data/radar.jpg
+
+# Internal project notes
+ARCHITECTURE.md
+STATUS.md
+
+# Claude Code local settings
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

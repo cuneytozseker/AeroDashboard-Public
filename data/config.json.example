@@ -1,0 +1,26 @@
+{
+    "wifi": {
+        "ssid": "YOUR_WIFI_SSID",
+        "password": "YOUR_WIFI_PASSWORD"
+    },
+    "weather": {
+        "api_key": "YOUR_OPENWEATHERMAP_API_KEY",
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "units": "metric",
+        "radar_url": "https://www.mgm.gov.tr/FTPDATA/uzal/radar/ist/istmax15.jpg",
+        "crop_x": 390,
+        "crop_y": 420,
+        "crop_size": 39
+    },
+    "todoist": {
+        "api_token": "YOUR_TODOIST_API_TOKEN",
+        "filter": "today | overdue",
+        "max_tasks": 6
+    },
+    "display": {
+        "refresh_interval_minutes": 10,
+        "full_refresh_every_n": 6,
+        "timezone_offset_hours": 0
+    }
+}
